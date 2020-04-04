@@ -78,7 +78,7 @@ footer {
   }
 
   p {
-    padding: 0 20px;
+    padding: 0;
   }
 
   p + p {
@@ -88,7 +88,6 @@ footer {
 
 @media screen and (min-width: 800px) {
   main {
-
     max-width: 1024px;
 
     .hero {
@@ -99,6 +98,12 @@ footer {
         font-size: 52px;
       }
 
+    }
+  }
+
+  footer {
+    p {
+      padding: 3px 10px;
     }
   }
 }
