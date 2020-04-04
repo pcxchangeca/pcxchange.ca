@@ -31,7 +31,7 @@ main {
 
     h1 {
       font-weight: 400;
-      font-size: 54px;
+      font-size: 56px;
       font-family: "Playfair Display", serif;
     }
 
@@ -94,8 +94,11 @@ footer {
     .hero {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      .content {
+
+      h1 {
+        font-size: 52px;
       }
+
     }
   }
 }
