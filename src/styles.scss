@@ -20,13 +20,14 @@ main {
   padding: 20px;
 
   .content {
-    padding: 20px 40px 40px;
+    padding: 30px 40px 40px;
     background: $yellow;
     color: $charcoal;
 
     h2 {
       font-weight: 900;
       font-size: 34px;
+      margin-top: 0;
     }
 
     h1 {
